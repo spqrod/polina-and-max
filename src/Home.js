@@ -1,76 +1,108 @@
 import './Home.css';
+import imageOfProposal from "./images/imageOfProposal.jpg";
 
 function Home() {
   return (
     <div className="App">
 
+      <section className='hero section'>
+        <h1>Polina & Max</h1>
+        <p>Friday, the 1st of August, 2025.</p>
+        <p>Ammarnäs, Sweden.</p>
+      </section>
+
       <section className='hello section'>
         <h1>Hello and Welcome to our Wedding!</h1>
-        <p>
-          We’ve chosen to have our wedding in Ammarnäs because it’s a place we love and visit every summer to recharge. It’s one of our favorite spots in the world, and we’re excited to share it with you.
+        <div className='contentContainer'>
+          <p>
+            We’ve chosen to have our wedding in <strong>Ammarnäs</strong> because it’s a place we love and visit every summer to recharge. It’s one of our favorite spots in the world, and we’re excited to share it with you.<br></br><br></br>
 
-          Though it might be a bit remote, its beauty makes every journey worthwhile. There’s plenty to do, and we hope you’ll enjoy exploring this scenic corner of the world with us.
+            Though it might be <i>a bit</i> remote, its beauty makes every journey worthwhile. There’s plenty to do, and we hope you’ll enjoy exploring this scenic corner of the world with us.<br></br><br></br>
 
-          The ceremony will take place near the spot where Max proposed, in Jillesnåle (Gillesnuole).
+            The ceremony will take place near <u>the spot where Max proposed</u>, in Jillesnåle (Gillesnuole).<br></br><br></br>
 
-          We hope you can join us for our wedding!
+            We hope you can join us for our wedding!
+          </p>
 
-          This is an active website, and we’ll be updating it regularly, so be sure to check back. If you have any questions, feel free to reach out to us.
-        </p>
+          <div className='imageContainer'>
+            <img className="image" src={imageOfProposal} alt="" />
+          </div>
+
+        </div>
       </section>
       <section className='howToGetThere section'>
+
         <h2>
           How to get here 
         </h2>
-        <h3>
-          Plane
-        </h3>
-        <p>
-          Arvidsjaurs, Lycksele, Hemavans and Umeå are the nearby airports. 
 
-          Arvidsjaurs is the closest airport, 183 km from Ammarnäs.
+        <div className='sectionContentContainer'> 
 
-          If you fly to Arvidsjaur (AJR) with popular.com from Stockholm (ARN) on July 31st, 2025, we will arrange a pre-booked bus from the airport to Ammarnäs for our guests. The same applies for the return flight on August 3rd. Please let us know if you plan to take these flights.
-        </p>
-        <h3>
-          Car
-        </h3>
-        <p>
-          By car, drive to Sorsele via road 363 or E45. From Sorsele, continue on road 363 to Ammarnäs. While there is a place to refuel in Ammarnäs, it’s an additional 89 km, so you may want to refuel in Sorsele before driving the final stretch.
+          <div className="contentContainer">
+            <h3>
+              Plane
+            </h3>
+            <p>
+              Arvidsjaurs, Lycksele, Hemavans and Umeå are the nearby airports. 
 
-          If you have space in your car or need a ride, please post in the WhatsApp group.
-        </p>
-        <h3>
-          Train 
-        </h3>
-        <p>
-          You can take the train up to the north, and from there, buses connect to Sorsele. From Sorsele, there is a bus service, running once or twice a day, that will take you to Ammarnäs.
+              Arvidsjaurs is the closest airport, 183 km from Ammarnäs.
 
-          SJ and tabussen.nu provide more detailed information based on your departure station.
+              If you fly to Arvidsjaur (AJR) with popular.com from Stockholm (ARN) on July 31st, 2025, we will arrange a pre-booked bus from the airport to Ammarnäs for our guests. The same applies for the return flight on August 3rd. Please let us know if you plan to take these flights.
+            </p>
+          </div>
 
-          The best options are to take an overnight SJ train to either Östersund, Umeå, or Jörn, and then take a bus or rent a car from there. (It’s better to rent a car in Umeå as it’s closer to Ammarnäs; there is no car rental in Jörn.)
+          <div className="contentContainer">
+            <h3>
+              Car
+            </h3>
+            <p>
+              By car, drive to Sorsele via road 363 or E45. From Sorsele, continue on road 363 to Ammarnäs. While there is a place to refuel in Ammarnäs, it’s an additional 89 km, so you may want to refuel in Sorsele before driving the final stretch.
 
-          The bus from Östersund to Sorsele takes about 6 hours, and from Sorsele to Ammarnäs, it’s an additional 1.5 hours.
+              If you have space in your car or need a ride, please post in the WhatsApp group.
+            </p>
+          </div>
 
-          Alternatively, there’s the tourist train (Inlandsbanan) from Östersund to Sorsele, which takes about 7 hours (a charming, slightly slow train with beautiful views).
+          <div className="contentContainer">
+            <h3>
+              Train 
+            </h3>
+            <p>
+              You can take the train up to the north, and from there, buses connect to Sorsele. From Sorsele, there is a bus service, running once or twice a day, that will take you to Ammarnäs.
 
-          There is also a bus from Umeå to Lycksele, and then from Lycksele to Sorsele.
-        </p>
-        <h3>
-          Hiking to Ammarnäs
-        </h3>
-        <p>
-          You can also hike to Ammarnäs. The King's Trail passes through Ammarnäs and from Hemavan it is 79 km. It is possible to hike between STF's staffed cabins when you come from Hemavan, which then takes 5-7 days. From Kvikkjokk it is 157 km. For more information follow this link https://www.swedishtouristassociation.com/trails/signature-trail-kungsleden-hemavan/ 
-        </p>
-        <h3>
-          Helicopter 
-        </h3>
-        <p>
-          There are also regular helicopter tours from Hemavan to Ammarnäs if you don’t want to hike the whole way https://arcticairhemavantarnaby.se/ 
-        </p>
+              SJ and tabussen.nu provide more detailed information based on your departure station.
+
+              The best options are to take an overnight SJ train to either Östersund, Umeå, or Jörn, and then take a bus or rent a car from there. (It’s better to rent a car in Umeå as it’s closer to Ammarnäs; there is no car rental in Jörn.)
+
+              The bus from Östersund to Sorsele takes about 6 hours, and from Sorsele to Ammarnäs, it’s an additional 1.5 hours.
+
+              Alternatively, there’s the tourist train (Inlandsbanan) from Östersund to Sorsele, which takes about 7 hours (a charming, slightly slow train with beautiful views).
+
+              There is also a bus from Umeå to Lycksele, and then from Lycksele to Sorsele.
+            </p>
+          </div>
+
+          <div className="contentContainer">
+            <h3>
+              Hiking to Ammarnäs
+            </h3>
+            <p>
+              You can also hike to Ammarnäs. The King's Trail passes through Ammarnäs and from Hemavan it is 79 km. It is possible to hike between STF's staffed cabins when you come from Hemavan, which then takes 5-7 days. From Kvikkjokk it is 157 km. For more information follow this link https://www.swedishtouristassociation.com/trails/signature-trail-kungsleden-hemavan/ 
+            </p>
+          </div>
+
+          <div className="contentContainer">
+            <h3>
+              Helicopter 
+            </h3>
+            <p>
+              There are also regular helicopter tours from Hemavan to Ammarnäs if you don’t want to hike the whole way https://arcticairhemavantarnaby.se/ 
+            </p>
+          </div>
+        </div>
+
       </section>
 
-      <section className='accomodation section'>
+      <section className='accommodation section'>
         <h2>Accomodation</h2>
         <p>
           The party will be held at Ammarnäsgården Fjällhotell & Vandrarhem, where we have reserved rooms and are in the process of arranging discounts for guests. More information will be available soon.
@@ -147,9 +179,9 @@ function Home() {
       </section>
 
       <section className='weddingDetails section'>
-        <h3>
+        <h2>
           Wedding Details
-        </h3>
+        </h2>
         <h3>
           Dress code
         </h3>
