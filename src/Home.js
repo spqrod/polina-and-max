@@ -1,7 +1,38 @@
 import './Home.css';
 import imageOfProposal from "./images/imageOfProposal.jpg";
+import React, { useState, useEffect } from 'react';
+
+const Countdown = () => {
+  const [days, setDays] = useState(0);
+
+  useEffect(() => {
+    const targetDate = new Date('2025-08-01T00:00:00');
+    const updateCountdown = () => {
+      const currentDate = new Date();
+      const difference = targetDate - currentDate;
+      let daysLeft = Math.floor(difference / (1000 * 60 * 60 * 24));
+      
+      // Ensuring we don't show negative days if the target date has passed
+      if (daysLeft < 0) {
+        daysLeft = 0;
+      }
+      setDays(daysLeft);
+    };
+
+    // Set up an interval to update the countdown every second
+    const timer = setInterval(updateCountdown, 1000);
+
+    // Clean up the interval on component unmount
+    return () => clearInterval(timer);
+  }, []); // Empty dependency array ensures this effect runs once when the component mounts
+
+  return (
+    <span>{days}</span>
+  );
+};
 
 function Home() {
+
   return (
     <div className="App">
 
@@ -9,6 +40,7 @@ function Home() {
         <h1>Polina & Max</h1>
         <p>Friday, the 1st of August, 2025.</p>
         <p>Ammarnäs, Sweden.</p>
+        <p><i>We are getting married in <Countdown /> days!</i></p>
       </section>
 
       <section className='hello section'>
@@ -170,7 +202,6 @@ function Home() {
           </div>
 
         </div>
-
 
       </section>
 

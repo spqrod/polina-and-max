@@ -152,8 +152,12 @@
       font-weight: 500;
     }
 
-    p {
+    p, span {
       font-size: 24px;
+    }
+
+    .countdownText {
+      text-decoration: wavy;
     }
   }
 
