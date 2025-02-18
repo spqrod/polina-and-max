@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/polina-and-max/static/css/main.74c70234.css",
-    "main.js": "/polina-and-max/static/js/main.609b8556.js",
+    "main.css": "/polina-and-max/static/css/main.9257dfe4.css",
+    "main.js": "/polina-and-max/static/js/main.f11f7b5c.js",
     "static/media/hotel.jpeg": "/polina-and-max/static/media/hotel.1b1a5559ae1cd1446e67.jpeg",
     "static/media/Rubik-VariableFont_wght.ttf": "/polina-and-max/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
     "static/media/map.jpg": "/polina-and-max/static/media/map.27c21474f6daaea0fd93.jpg",
@@ -10,11 +10,11 @@
     "static/media/imageOfProposal.jpg": "/polina-and-max/static/media/imageOfProposal.e67b3afdebc0421fdc24.jpg",
     "static/media/image-1.jpg": "/polina-and-max/static/media/image-1.f0263af5f5263bf51dff.jpg",
     "index.html": "/polina-and-max/index.html",
-    "main.74c70234.css.map": "/polina-and-max/static/css/main.74c70234.css.map",
-    "main.609b8556.js.map": "/polina-and-max/static/js/main.609b8556.js.map"
+    "main.9257dfe4.css.map": "/polina-and-max/static/css/main.9257dfe4.css.map",
+    "main.f11f7b5c.js.map": "/polina-and-max/static/js/main.f11f7b5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.74c70234.css",
-    "static/js/main.609b8556.js"
+    "static/css/main.9257dfe4.css",
+    "static/js/main.f11f7b5c.js"
   ]
 }
