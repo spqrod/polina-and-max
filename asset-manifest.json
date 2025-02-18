@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53fa3fd8.css",
+    "main.js": "/static/js/main.d6d1d98b.js",
+    "static/media/hotel.jpeg": "/static/media/hotel.1b1a5559ae1cd1446e67.jpeg",
+    "static/media/Rubik-VariableFont_wght.ttf": "/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
+    "static/media/fishing.jpg": "/static/media/fishing.55b9dac7593e100a0aff.jpg",
+    "static/media/Cinzel-VariableFont_wght.ttf": "/static/media/Cinzel-VariableFont_wght.2d087b545bf495f3d86d.ttf",
+    "static/media/imageOfProposal.jpg": "/static/media/imageOfProposal.e67b3afdebc0421fdc24.jpg",
+    "static/media/image-1.jpg": "/static/media/image-1.f0263af5f5263bf51dff.jpg",
+    "index.html": "/index.html",
+    "main.53fa3fd8.css.map": "/static/css/main.53fa3fd8.css.map",
+    "main.d6d1d98b.js.map": "/static/js/main.d6d1d98b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53fa3fd8.css",
+    "static/js/main.d6d1d98b.js"
+  ]
+}
