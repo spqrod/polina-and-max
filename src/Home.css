@@ -56,6 +56,13 @@
     padding-bottom: var(--big-gap);
   }
 
+  h3 {
+    font-size: var(--h3-font-size);
+    font-family: "font-2";
+    font-weight: 500;
+    padding-bottom: var(--small-gap);
+  }
+
   p, a, span, div, label, input {
     font-size: var(--body-font-size);
     font-family: "font-2";
@@ -81,8 +88,7 @@
 
   --h1-font-size: 53px;
   --h2-font-size: 46px;
-  --h3-font-size: 38px;
-  --h5-font-size: 24px;
+  --h3-font-size: 24px;
   --h6-font-size: 18px;
   --body-font-size: 18px;
 
@@ -104,7 +110,7 @@
   @media only screen and (max-width: 768px) {
       --h1-font-size: 30px;
       --h2-font-size: 26px;
-      --h3-font-size: 23px;
+      --h3-font-size: 24px;
       --h5-font-size: 20px;
   }
 }
@@ -192,7 +198,7 @@
     height: 100vh;
 
     background-image: url("./images/hotel.jpeg");
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
     position: relative;
 
@@ -228,7 +234,62 @@
 
   }
 
+  &.schedule {
 
+    .sectionContentContainer {
+      display: flex;
+      flex-direction: column;
+      gap: var(--big-gap);
+    }
 
+  }
+
+  &.activities {
+    height: 100vh;
+
+    background-image: url("./images/fishing.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-top: var(--big-gap);
+    padding-bottom: var(--big-gap);
+
+    h2, ul {
+      color: white;
+    }
+
+    /* For dimming the background image */
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.339); /* Adjust this for different opacity or color */
+      z-index: 1;
+    }
+
+    > * {
+      position: relative;
+      z-index: 2;
+      color: white; /* Adjust text color for visibility */
+    }
+
+  }
+
+  &.weddingDetails {
+    .contentContainer {
+      display: flex;
+      flex-direction: column;
+      gap: var(--big-gap);
+    }
+  }
 
 }

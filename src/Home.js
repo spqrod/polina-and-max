@@ -30,6 +30,7 @@ function Home() {
 
         </div>
       </section>
+
       <section className='howToGetThere section'>
 
         <h2>
@@ -117,52 +118,80 @@ function Home() {
           Schedule
         </h2>
 
-        <p>
-          Thursday - Arrival Day and BBQ on Potato Hill
-          If the weather isn't ideal, we’ll move the food and karaoke to the hotel instead.
+        <div className="sectionContentContainer">
 
-          Friday - Wedding Day
-          Breakfast at the hotel, followed by getting dressed and ready.
-          The wedding bus will pick everyone up from Ammarnäs around 12:30 and take us to the ceremony location at Jillesnåle (Gillesnuole), where the ceremony will begin around 13:30. Afterward, there will be drinks and a light lunch.
-          At 16:00, the wedding bus will return everyone to Ammarnäs.
-          At 18:00, dinner and the party will begin at Ammarnäsgården Fjällhotell & Vandrarhem.
-          During dinner, there will be a kids' corner with toys (but no supervision).
 
-          Saturday - Activities Day (weather permitting)
-          Ammarnäs may feel remote, but it’s a hub for many nature-related activities. We encourage you to take this day to relax and experience the true beauty of northern nature. Please refer to the Activities Page for more details on what you can do here.
+          <div className='contentItemContainer'>
+            <h3>
+              Thursday - Arrival Day and BBQ on Potato Hill
+            </h3>
+            <p>
+              If the weather isn't ideal, we’ll move the food and karaoke to the hotel instead.
+            </p>
+          </div>
 
-          In the evening, we’ll have a party at the hotel bar.
+          <div className='contentItemContainer'>
+            <h3>
+              Friday - Wedding Day
+            </h3>
+            <p>
+              Breakfast at the hotel, followed by getting dressed and ready.<br></br><br></br>
+              The wedding bus will pick everyone up from Ammarnäs around 12:30 and take us to the ceremony location at Jillesnåle (Gillesnuole), where the ceremony will begin around 13:30. Afterward, there will be drinks and a light lunch. <br></br><br></br>
+              At 16:00, the wedding bus will return everyone to Ammarnäs.<br></br><br></br>
+              At 18:00, dinner and the party will begin at Ammarnäsgården Fjällhotell & Vandrarhem.
+              During dinner, there will be a kids' corner with toys (but no supervision).
+            </p>
+          </div>
 
-          For those interested, we’d be happy if you joined us for a hike to the top of Gáisátje (Gajssietjåhkka) around lunchtime. The hike is 4 km from the Tjulträsk parking lot to the summit. The first 2 km follow a stream through mountain birch forest. Once at the top (1008 m), you’ll be rewarded with a view of the entire reserve. The hike is a relatively easy walk through mountain moorland, with excellent birdwatching opportunities. Difficulty: Medium – the hike includes a 456-meter elevation gain.
+          <div className='contentItemContainer'>
+            <h3>
+              Saturday - Activities Day (weather permitting)
+            </h3>
+            <p>
+              Ammarnäs may feel remote, but it’s a hub for many nature-related activities. We encourage you to take this day to relax and experience the true beauty of northern nature. Please refer to the Activities Page for more details on what you can do here.<br></br><br></br>
 
-          For those who prefer a round-trip hike from Ammarnäs, you can follow the Ammarnäs-Tjulträsk parking lot trail (8.2 km), then continue from Tjulträsk parking lot to Gáisátje (4 km). From Gáisátje, you can hike via Karsbäcken to Småfjällen and then join the King’s Trail back to Ammarnäs, which is about 10 km (see the highlighted trail in yellow below).
+              In the evening, we’ll have a party at the hotel bar.<br></br><br></br>
 
-          For more info please see the map below  https://www.naturkartan.se/sv/vasterbottens-lan/gajsatjakke?utm_source=naturkartan&utm_medium=map 
+              For those interested, we’d be happy if you joined us for a hike to the top of Gáisátje (Gajssietjåhkka) around lunchtime. The hike is 4 km from the Tjulträsk parking lot to the summit. The first 2 km follow a stream through mountain birch forest. Once at the top (1008 m), you’ll be rewarded with a view of the entire reserve. The hike is a relatively easy walk through mountain moorland, with excellent birdwatching opportunities. Difficulty: Medium – the hike includes a 456-meter elevation gain.<br></br><br></br>
 
-          Sunday - Departure Day
-          For those taking the Popular flight to Stockholm (ARN) at 13:00, we will arrange a bus to drive from Ammarnäs to Arvidsjaur Airport in the morning.
+              For those who prefer a round-trip hike from Ammarnäs, you can follow the Ammarnäs-Tjulträsk parking lot trail (8.2 km), then continue from Tjulträsk parking lot to Gáisátje (4 km). From Gáisátje, you can hike via Karsbäcken to Småfjällen and then join the King’s Trail back to Ammarnäs, which is about 10 km (see the highlighted trail in yellow below).<br></br><br></br>
 
-        </p>
+              For more info please see the map below  https://www.naturkartan.se/sv/vasterbottens-lan/gajsatjakke?utm_source=naturkartan&utm_medium=map 
+            </p>
+          </div>
+
+          <div className='contentItemContainer'>
+            <h3>
+              Sunday - Departure Day
+            </h3>
+            <p>
+              For those taking the Popular flight to Stockholm (ARN) at 13:00, we will arrange a bus to drive from Ammarnäs to Arvidsjaur Airport in the morning.
+            </p>
+          </div>
+
+        </div>
+
+
       </section>
 
       <section className='activities section'>
-        <h3>
+        <h2>
           Activities
-        </h3>
-        <p>
-          Fishing 
-          Horse Riding 
-          Hiking 
-          Birdwatching 
-          Sámi Handicraft
-          Naturum
-          Potato Hill
-          Swimming 
-          Brudslöjan
-          Gimegolts
-          Geunja Sami Ecolodge
-          Cold-Nose Huskies 
-        </p>
+        </h2>
+        <ul>
+          <li>Fishing</li> 
+          <li>Horse Riding </li>
+          <li>Hiking </li>
+          <li>Birdwatching </li>
+          <li>Sámi Handicraft</li>
+          <li>Naturum</li>
+          <li>Potato Hill</li>
+          <li>Swimming </li>
+          <li>Brudslöjan</li>
+          <li>Gimegolts</li>
+          <li>Geunja Sami Ecolodge</li>
+          <li>Cold-Nose Huskies </li>
+        </ul>
       </section>
 
       <section className='RSVP section'>
@@ -171,10 +200,12 @@ function Home() {
         </h2>
         <p>
           Please register kids separately and indicate if they require a children's chair.
-          Name and Surname 
-          Dietary requirements 
-          Drinking requirements (Alcohol or no alcohol)
-          Other 
+          <ul>
+            <li>Name and Surname </li>
+            <li>Dietary requirements </li>
+            <li>Drinking requirements (Alcohol or no alcohol)</li>
+            <li>Other </li>
+          </ul>
         </p>
       </section>
 
@@ -182,30 +213,47 @@ function Home() {
         <h2>
           Wedding Details
         </h2>
-        <h3>
-          Dress code
-        </h3>
-        <p>
-          We are in the wild, so wear your wildest outfit. 
-        </p>
-        <h3>
-          Toast masters
-        </h3>
-        <p>
-          In a traditional Crimean wedding, proposing toasts is as natural as taking a breath, so we’d be happy to hear if you’d like to say something. At the end of the toast, you might want to say “Gorka,” which means "bitter," which obviously signals that Max and I have to kiss. For an even more traditional touch, you can start counting to 10, and Max and I will only stop kissing once you reach 10.
-        </p>
-        <h3>
-          What to pack 
-        </h3>
-        <p>
-          The weather in the mountains can change quickly, so please check the forecast before you travel. Be sure to bring mosquito repellent with you.
-        </p>
-        <h3>
-          Included with our celebration
-        </h3>
-        <p>
-          BBQ and welcome drink on Thursday, along with all food and drinks on the wedding day.
-        </p>
+
+        <div className="contentContainer">
+          
+          <div className="contentItemContainer">
+            <h3>
+              Dress code
+            </h3>
+            <p>
+              We are in the wild, so wear your <i>wildest</i> outfit. 
+            </p>
+          </div>
+          <div className="contentItemContainer">
+            <h3>
+              Toast masters
+            </h3>
+            <p>
+              In a traditional Crimean wedding, proposing toasts is as natural as taking a breath, so we’d be happy to hear if you’d like to say something. At the end of the toast, you might want to say “Gorka,” which means "bitter," which obviously signals that Max and I have to kiss. For an even more traditional touch, you can start counting to 10, and Max and I will only stop kissing once you reach 10.
+            </p>
+          </div>
+
+          <div className="contentItemContainer">
+            <h3>
+              What to pack 
+            </h3>
+            <p>
+              The weather in the mountains can change quickly, so please check the forecast before you travel. Be sure to bring mosquito repellent with you.
+            </p>
+          </div>
+
+          <div className="contentItemContainer">
+            <h3>
+              Included with our celebration
+            </h3>
+            <p>
+              BBQ and welcome drink on Thursday, along with all food and drinks on the wedding day.
+            </p>
+          </div>
+
+        </div>
+
+
       </section>
 
     </div>
