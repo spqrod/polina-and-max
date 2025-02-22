@@ -1,5 +1,6 @@
 import './Home.css';
 import imageOfProposal from "./images/imageOfProposal.jpg";
+import map from "./images/map.jpg";
 import React, { useState, useEffect } from 'react';
 
 const Countdown = () => {
@@ -51,7 +52,7 @@ function Home() {
 
             Though it might be <i>a bit</i> remote, its beauty makes every journey worthwhile. There’s plenty to do, and we hope you’ll enjoy exploring this scenic corner of the world with us.<br></br><br></br>
 
-            The ceremony will take place near <u>the spot where Max proposed</u>, in Jillesnåle (Gillesnuole).<br></br><br></br>
+            The ceremony will take place near <i>the spot where Max proposed</i>, in Jillesnåle (Gillesnuole).<br></br><br></br>
 
             We hope you can join us for our wedding!
           </p>
@@ -119,7 +120,7 @@ function Home() {
               Hiking to Ammarnäs
             </h3>
             <p>
-              You can also hike to Ammarnäs. The King's Trail passes through Ammarnäs and from Hemavan it is 79 km. It is possible to hike between STF's staffed cabins when you come from Hemavan, which then takes 5-7 days. From Kvikkjokk it is 157 km. For more information follow this link https://www.swedishtouristassociation.com/trails/signature-trail-kungsleden-hemavan/ 
+              You can also hike to Ammarnäs. The King's Trail passes through Ammarnäs and from Hemavan it is 79 km. It is possible to hike between STF's staffed cabins when you come from Hemavan, which then takes 5-7 days. From Kvikkjokk it is 157 km. For more information follow this <a href="https://www.swedishtouristassociation.com/trails/signature-trail-kungsleden-hemavan/" target="_blank" rel="noopener noreferrer">link</a>.
             </p>
           </div>
 
@@ -128,7 +129,7 @@ function Home() {
               Helicopter 
             </h3>
             <p>
-              There are also regular helicopter tours from Hemavan to Ammarnäs if you don’t want to hike the whole way https://arcticairhemavantarnaby.se/ 
+              There are also regular <a href="https://arcticairhemavantarnaby.se/" target="_blank" rel="noopener noreferrer">helicopter tours</a> from Hemavan to Ammarnäs if you don’t want to hike the whole way.
             </p>
           </div>
         </div>
@@ -138,10 +139,8 @@ function Home() {
       <section className='accommodation section'>
         <h2>Accomodation</h2>
         <p>
-          The party will be held at Ammarnäsgården Fjällhotell & Vandrarhem, where we have reserved rooms and are in the process of arranging discounts for guests. More information will be available soon.
-
-          If you’d prefer to stay elsewhere, please refer to this page for more options.
-          https://www.visitammarnas.se/boende 
+          The party will be held at Ammarnäsgården Fjällhotell & Vandrarhem, where we have reserved rooms and are in the process of arranging discounts for guests. More information will be available soon.<br></br><br></br> 
+          If you’d prefer to stay elsewhere, please refer to <a href="https://www.visitammarnas.se/boende " target="_blank" rel="noopener noreferrer">this page</a> for more options.
         </p>
       </section>
 
@@ -175,7 +174,7 @@ function Home() {
             </p>
           </div>
 
-          <div className='contentItemContainer'>
+          <div className='contentItemContainer withMapImage'>
             <h3>
               Saturday - Activities Day (weather permitting)
             </h3>
@@ -188,7 +187,11 @@ function Home() {
 
               For those who prefer a round-trip hike from Ammarnäs, you can follow the Ammarnäs-Tjulträsk parking lot trail (8.2 km), then continue from Tjulträsk parking lot to Gáisátje (4 km). From Gáisátje, you can hike via Karsbäcken to Småfjällen and then join the King’s Trail back to Ammarnäs, which is about 10 km (see the highlighted trail in yellow below).<br></br><br></br>
 
-              For more info please see the map below  https://www.naturkartan.se/sv/vasterbottens-lan/gajsatjakke?utm_source=naturkartan&utm_medium=map 
+              <div className="imageContainer">
+                <img className='image' src={map} alt="" />
+              </div>
+
+              For more info please see <a href="https://www.naturkartan.se/sv/vasterbottens-lan/gajsatjakke?utm_source=naturkartan&utm_medium=map" target="_blank" rel="noopener noreferrer">the map</a>.  
             </p>
           </div>
 
@@ -197,7 +200,7 @@ function Home() {
               Sunday - Departure Day
             </h3>
             <p>
-              For those taking the Popular flight to Stockholm (ARN) at 13:00, we will arrange a bus to drive from Ammarnäs to Arvidsjaur Airport in the morning.
+              For those taking the PopulAir flight to Stockholm (ARN) at 13:00, we will arrange a bus to drive from Ammarnäs to Arvidsjaur Airport in the morning.
             </p>
           </div>
 
@@ -260,6 +263,7 @@ function Home() {
               Toast masters
             </h3>
             <p>
+              TBA...<br></br>
               In a traditional Crimean wedding, proposing toasts is as natural as taking a breath, so we’d be happy to hear if you’d like to say something. At the end of the toast, you might want to say “Gorka,” which means "bitter," which obviously signals that Max and I have to kiss. For an even more traditional touch, you can start counting to 10, and Max and I will only stop kissing once you reach 10.
             </p>
           </div>

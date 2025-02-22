@@ -70,8 +70,8 @@
   }
 
   a {
-    text-decoration: none;
-    color: var(--normal-text);
+    text-decoration: underline;
+    color: rgb(25, 25, 223);
     cursor: pointer;
   }
 }
@@ -128,8 +128,6 @@
 
 /* The Rest */
 
-
-
 .section {
 
   &.hero {
@@ -149,11 +147,12 @@
 
     h1 {
       font-size: 64px;
-      font-weight: 500;
+      font-weight: 600;
     }
 
     p, span {
       font-size: 24px;
+      font-weight: 400;
     }
 
     .countdownText {
@@ -217,6 +216,10 @@
       color: white;
     }
 
+    a {
+      color: rgb(50, 108, 255);
+    }
+
     /* For dimming the background image */
 
     &::before {
@@ -226,7 +229,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba(0, 0, 0, 0.339); /* Adjust this for different opacity or color */
+      background-color: rgba(0, 0, 0, 0.528); /* Adjust this for different opacity or color */
       z-index: 1;
     }
 
@@ -244,6 +247,22 @@
       display: flex;
       flex-direction: column;
       gap: var(--big-gap);
+
+      .contentItemContainer.withMapImage {
+        
+        .imageContainer {
+          display: flex;
+          justify-content: center;
+          max-width: 100%;
+          padding-bottom: var(--big-gap);
+  
+          .image {
+            max-width: 800px;
+          }
+        }
+      }
+
+
     }
 
   }
