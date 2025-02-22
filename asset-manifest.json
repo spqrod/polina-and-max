@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/polina-and-max/static/css/main.a7f96b26.css",
-    "main.js": "/polina-and-max/static/js/main.c65e83d0.js",
+    "main.js": "/polina-and-max/static/js/main.2fca56b0.js",
     "static/media/Rubik-VariableFont_wght.ttf": "/polina-and-max/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
     "static/media/hotel.jpeg": "/polina-and-max/static/media/hotel.05ae55175652a7747067.jpeg",
     "static/media/fishing.jpg": "/polina-and-max/static/media/fishing.57e60ebe3aea76d2dd48.jpg",
@@ -11,10 +11,10 @@
     "static/media/image-1.jpg": "/polina-and-max/static/media/image-1.01fd400a21442ac2fab7.jpg",
     "index.html": "/polina-and-max/index.html",
     "main.a7f96b26.css.map": "/polina-and-max/static/css/main.a7f96b26.css.map",
-    "main.c65e83d0.js.map": "/polina-and-max/static/js/main.c65e83d0.js.map"
+    "main.2fca56b0.js.map": "/polina-and-max/static/js/main.2fca56b0.js.map"
   },
   "entrypoints": [
     "static/css/main.a7f96b26.css",
-    "static/js/main.c65e83d0.js"
+    "static/js/main.2fca56b0.js"
   ]
 }
