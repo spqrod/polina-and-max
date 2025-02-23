@@ -52,9 +52,11 @@ function Home() {
 
             Though it might be <i>a bit</i> remote, its beauty makes every journey worthwhile. There’s plenty to do, and we hope you’ll enjoy exploring this scenic corner of the world with us.<br></br><br></br>
 
-            The ceremony will take place near <i>the spot where Max proposed</i>, in Jillesnåle (Gillesnuole).<br></br><br></br>
+            The ceremony will take place near the spot where Max proposed, in <a href='https://www.sorsele.se/media/1838/jilesnale_1806.pdf' target="_blank" rel="noopener noreferrer">Jillesnåle (Gillesnuole)</a>.<br></br><br></br>
 
-            We hope you can join us for our wedding!
+            We hope you can join us for our wedding!<br></br><br></br>
+
+            This is an active website, and we’ll be updating it regularly, so be sure to check back. If you have any questions, feel free to reach out to us.
           </p>
 
           <div className='imageContainer'>
@@ -77,9 +79,9 @@ function Home() {
               Plane
             </h3>
             <p>
-              Arvidsjaurs, Lycksele, Hemavans and Umeå are the nearby airports. 
+              Arvidsjaurs, Lycksele, Hemavans and Umeå are the nearby airports. <br></br><br></br>
 
-              Arvidsjaurs is the closest airport, 183 km from Ammarnäs.
+              Arvidsjaurs is the closest airport, 183 km from Ammarnäs.<br></br><br></br>
 
               If you fly to Arvidsjaur (AJR) with popular.com from Stockholm (ARN) on July 31st, 2025, we will arrange a pre-booked bus from the airport to Ammarnäs for our guests. The same applies for the return flight on August 3rd. Please let us know if you plan to take these flights.
             </p>
@@ -90,7 +92,7 @@ function Home() {
               Car
             </h3>
             <p>
-              By car, drive to Sorsele via road 363 or E45. From Sorsele, continue on road 363 to Ammarnäs. While there is a place to refuel in Ammarnäs, it’s an additional 89 km, so you may want to refuel in Sorsele before driving the final stretch.
+              By car, drive to Sorsele via road 363 or E45. From Sorsele, continue on road 363 to Ammarnäs. While there is a place to refuel in Ammarnäs, it’s an additional 89 km, so you may want to refuel in Sorsele before driving the final stretch.<br></br><br></br>
 
               If you have space in your car or need a ride, please post in the WhatsApp group.
             </p>
@@ -101,15 +103,15 @@ function Home() {
               Train 
             </h3>
             <p>
-              You can take the train up to the north, and from there, buses connect to Sorsele. From Sorsele, there is a bus service, running once or twice a day, that will take you to Ammarnäs.
+              You can take the train up to the north, and from there, buses connect to Sorsele. From Sorsele, there is a bus service, running once or twice a day, that will take you to Ammarnäs.<br></br><br></br>
 
-              SJ and tabussen.nu provide more detailed information based on your departure station.
+              SJ and tabussen.nu provide more detailed information based on your departure station.<br></br><br></br>
 
-              The best options are to take an overnight SJ train to either Östersund, Umeå, or Jörn, and then take a bus or rent a car from there. (It’s better to rent a car in Umeå as it’s closer to Ammarnäs; there is no car rental in Jörn.)
+              The best options are to take an overnight SJ train to either Östersund, Umeå, or Jörn, and then take a bus or rent a car from there. (It’s better to rent a car in Umeå as it’s closer to Ammarnäs; there is no car rental in Jörn.)<br></br><br></br>
 
-              The bus from Östersund to Sorsele takes about 6 hours, and from Sorsele to Ammarnäs, it’s an additional 1.5 hours.
+              The bus from Östersund to Sorsele takes about 6 hours, and from Sorsele to Ammarnäs, it’s an additional 1.5 hours.<br></br><br></br>
 
-              Alternatively, there’s the tourist train (Inlandsbanan) from Östersund to Sorsele, which takes about 7 hours (a charming, slightly slow train with beautiful views).
+              Alternatively, there’s the tourist train (<a href='https://res.inlandsbanan.se/en/book/ticket-and-seat-reservation' target="_blank" rel="noopener noreferrer">Inlandsbanan</a>) from Östersund to Sorsele, which takes about 7 hours (a charming, slightly slow train with beautiful views).<br></br><br></br>
 
               There is also a bus from Umeå to Lycksele, and then from Lycksele to Sorsele.
             </p>
@@ -144,9 +146,9 @@ function Home() {
         </p>
       </section>
 
-      <section className='schedule section'>
+      <section className='programme section'>
         <h2>
-          Schedule
+          Programme
         </h2>
 
         <div className="sectionContentContainer">
@@ -208,39 +210,70 @@ function Home() {
 
       </section>
 
-      <section className='activities section'>
-        <h2>
-          Activities
-        </h2>
-        <ul>
-          <li>Fishing</li> 
-          <li>Horse Riding </li>
-          <li>Hiking </li>
-          <li>Birdwatching </li>
-          <li>Sámi Handicraft</li>
-          <li>Naturum</li>
-          <li>Potato Hill</li>
-          <li>Swimming </li>
-          <li>Brudslöjan</li>
-          <li>Gimegolts</li>
-          <li>Geunja Sami Ecolodge</li>
-          <li>Cold-Nose Huskies </li>
-        </ul>
-      </section>
-
       <section className='RSVP section'>
         <h2>
           RSVP
         </h2>
         <p>
-          Please register kids separately and indicate if they require a children's chair.
-          <ul>
-            <li>Name and Surname </li>
-            <li>Dietary requirements </li>
-            <li>Drinking requirements (Alcohol or no alcohol)</li>
-            <li>Other </li>
-          </ul>
+          To let us know that you are, please fill in <a href='https://docs.google.com/forms/d/e/1FAIpQLSfd_d6r2Zfq_GcwiNubxgnlQ0qsBLBgZxFSlXFkssmuLUrBng/viewform?usp=dialog' target="_blank" rel="noopener noreferrer">this form</a> by 1 June 2025.
         </p>
+      </section>
+
+      <section className='activities section'>
+        <h2>
+          Activities
+        </h2>
+        <ul>
+
+          <li>
+            Fishing (<a href='https://natureit.se/en/area/sorsele?language=en' target="_blank" rel="noopener noreferrer">Option 1</a> and <a href='https://vindelriverfishing.se' target="_blank" rel="noopener noreferrer">Option 2</a>)
+          </li> 
+
+          <li>
+            Horse Riding (<a href='https://fjallhasten.se/' target="_blank" rel="noopener noreferrer">Option 1</a> and <a href='https://aha-lodge.com/english/' target="_blank" rel="noopener noreferrer">Option 2</a>)
+          </li>
+
+          <li>
+            Hiking (<a href='https://www.naturkartan.se/sv/explore' target="_blank" rel="noopener noreferrer">Option 1</a>, <a href='https://www.vindelfjallen.se/vandra/hitta-leder-stugor/' target="_blank" rel="noopener noreferrer">Option 2</a> and <a href='https://www.svenskaturistforeningen.se/aktiviteter/vandring/fjallvandring/' target="_blank" rel="noopener noreferrer">Option 3</a>)
+          </li>
+
+          <li>
+            Birdwatching
+          </li>
+
+          <li>
+            Sámi Handicraft
+          </li>
+
+          <li>
+            Naturum
+          </li>
+
+          <li>
+            <a href='https://www.naturkartan.se/sv/vasterbottens-lan/ammarnas-potatisbacken' target="_blank" rel="noopener noreferrer">Potato Hill</a>
+          </li>
+
+          <li>
+            Swimming
+          </li>
+
+          <li>
+            <a href='https://visit.sorsele.se/sv/2021/06/14/brudslojan/' target="_blank" rel="noopener noreferrer">Brudslöjan</a>
+          </li>
+
+          <li>
+            <a href='https://visit.sorsele.se/sv/2021/06/14/gimegolts/' target="_blank" rel="noopener noreferrer">Gimegolts</a>            
+          </li>
+
+          <li>
+            <a href='http://samiecolodge.se/' target="_blank" rel="noopener noreferrer">Geunja Sami Ecolodge</a>
+          </li>
+
+          <li>
+            Huskies (<a href='https://cold-nose-huskies.se/en/dog-sled-tours/summer-adventures/' target="_blank" rel="noopener noreferrer">Option 1</a> and <a href='https://www.trails-of-lapland.de/' target="_blank" rel="noopener noreferrer">Option 2</a>)
+          </li>
+
+        </ul>
       </section>
 
       <section className='weddingDetails section'>

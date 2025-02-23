@@ -241,7 +241,7 @@
 
   }
 
-  &.schedule {
+  &.programme {
 
     .sectionContentContainer {
       display: flex;
@@ -284,6 +284,10 @@
 
     h2, ul {
       color: white;
+    }
+
+    a {
+      color: rgb(50, 108, 255);
     }
 
     /* For dimming the background image */
