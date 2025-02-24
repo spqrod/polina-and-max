@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/polina-and-max/static/css/main.ddb46524.css",
-    "main.js": "/polina-and-max/static/js/main.6e0e43f9.js",
+    "main.css": "/polina-and-max/static/css/main.a414f944.css",
+    "main.js": "/polina-and-max/static/js/main.2e1d00ab.js",
     "static/media/Rubik-VariableFont_wght.ttf": "/polina-and-max/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
     "static/media/hotel.jpeg": "/polina-and-max/static/media/hotel.05ae55175652a7747067.jpeg",
+    "static/media/hero-image-mobile.jpg": "/polina-and-max/static/media/hero-image-mobile.226646224684dc04b6c9.jpg",
     "static/media/fishing.jpg": "/polina-and-max/static/media/fishing.57e60ebe3aea76d2dd48.jpg",
-    "static/media/Cinzel-VariableFont_wght.ttf": "/polina-and-max/static/media/Cinzel-VariableFont_wght.2d087b545bf495f3d86d.ttf",
     "static/media/map.jpg": "/polina-and-max/static/media/map.9fe1faedfee6555a34b0.jpg",
     "static/media/imageOfProposal.jpg": "/polina-and-max/static/media/imageOfProposal.a5b245e4887b31b453a2.jpg",
     "static/media/image-1.jpg": "/polina-and-max/static/media/image-1.01fd400a21442ac2fab7.jpg",
     "index.html": "/polina-and-max/index.html",
-    "main.ddb46524.css.map": "/polina-and-max/static/css/main.ddb46524.css.map",
-    "main.6e0e43f9.js.map": "/polina-and-max/static/js/main.6e0e43f9.js.map"
+    "main.a414f944.css.map": "/polina-and-max/static/css/main.a414f944.css.map",
+    "main.2e1d00ab.js.map": "/polina-and-max/static/js/main.2e1d00ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddb46524.css",
-    "static/js/main.6e0e43f9.js"
+    "static/css/main.a414f944.css",
+    "static/js/main.2e1d00ab.js"
   ]
 }
