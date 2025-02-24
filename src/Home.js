@@ -1,4 +1,5 @@
 import './Home.css';
+import heroImageMobile from "./images/hero-image-mobile.jpg";
 import imageOfProposal from "./images/imageOfProposal.jpg";
 import map from "./images/map.jpg";
 import React, { useState, useEffect } from 'react';
@@ -70,10 +71,18 @@ function Home() {
       </nav>
 
       <section className='hero section'>
-        <h1>Polina & Max</h1>
-        <p>Friday, the 1st of August, 2025.</p>
-        <p>Ammarnäs, Sweden.</p>
-        <p><i>We are getting married in <Countdown /> days!</i></p>
+
+        <div className='contentContainer'>
+          <h1>Polina & Max</h1>
+          <p>Friday, the 1st of August, 2025.</p>
+          <p>Ammarnäs, Sweden.</p>
+          <p><i>We are getting married in <Countdown /> days!</i></p>
+          <div className='gradientBackgroundForMobile'></div>
+        </div>
+
+        <div className='imageContainer'>
+          <img src={heroImageMobile} className='heroImage' alt="" />
+        </div>
       </section>
 
       <section id="hello" className='hello section'>
