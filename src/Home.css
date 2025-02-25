@@ -322,6 +322,12 @@
       }
   
       @media only screen and (max-width: 768px) {
+
+        & h1 {
+          width: 100%;
+          text-align: center;
+        }
+
         background-image: none;
         align-items: start;
         gap: var(--small-gap);
@@ -335,7 +341,6 @@
 
       @media only screen and (max-width: 768px) {
         display: block;
-        border: 3px solid red;
 
         & .heroImage {
           width: 100%;
