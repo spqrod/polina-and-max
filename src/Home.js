@@ -111,7 +111,7 @@ function Home() {
         <div className='sectionContentContainer'> 
           <div className="contentContainer">
             <h3>Plane</h3>
-            <p>Arvidsjaurs, Lycksele, Hemavans and Umeå are the nearby airports. <br></br><br></br> Arvidsjaurs is the closest airport, 183 km from Ammarnäs.<br></br><br></br> If you fly to Arvidsjaur (AJR) with popular.com from Stockholm (ARN) on July 31st, 2025, we will arrange a pre-booked bus from the airport to Ammarnäs for our guests. The same applies for the return flight on August 3rd. Please let us know if you plan to take these flights.</p>
+            <p>Arvidsjaurs, Lycksele, Hemavans and Umeå are the nearby airports. <br></br><br></br> Arvidsjaurs is the closest airport, 183 km from Ammarnäs.<br></br><br></br> If you fly to Arvidsjaur (AJR) with <a href='https://populair.com' target="_blank" rel="noopener noreferrer">populair.com</a> from Stockholm (ARN) on July 31st, 2025, we will arrange a bus from the airport to Ammarnäs for our guests. The same applies for the return flight on August 3rd. Please let us know if you plan to take these flights.</p>
           </div>
           <div className="contentContainer">
             <h3>Car</h3>
@@ -134,7 +134,7 @@ function Home() {
 
       <section id="accommodation" className='accommodation section'>
         <h2>Accomodation</h2>
-        <p>The party will be held at Ammarnäsgården Fjällhotell & Vandrarhem, where we have reserved rooms and are in the process of arranging discounts for guests. More information will be available soon.<br></br><br></br> If you’d prefer to stay elsewhere, please refer to <a href="https://www.visitammarnas.se/boende " target="_blank" rel="noopener noreferrer">this page</a> for more options.</p>
+        <p>The party will be held at Ammarnäsgården Fjällhotell & Vandrarhem, where we have reserved rooms until May 31, 2025.<br></br><br></br>To book a room, please call (0952-600 03) or email (fjallhotell@ammarnasgarden.se) and mention that you are attending the “Max and Polina Wedding.” A 10% discount will apply to all bookings.<br></br><br></br>There are two room types available: 'Hotellrum' and 'Fjällrum'. Most of the 'Hotellrum' have been recently renovated and offer a more comfortable stay, while the 'Fjällrum' are a simpler, no-frills, budget-friendly choice.<br></br><br></br>If you’d prefer to stay elsewhere, please refer to <a href="https://www.visitammarnas.se/boende " target="_blank" rel="noopener noreferrer">this page</a> for more options.</p>
       </section>
 
       <section id="programme" className='programme section'>
@@ -146,11 +146,22 @@ function Home() {
           </div>
           <div className='contentItemContainer'>
             <h3>Friday - Wedding Day</h3>
-            <p>Breakfast at the hotel, followed by getting dressed and ready.<br></br><br></br> The wedding bus will pick everyone up from Ammarnäs around 12:30 and take us to the ceremony location at Jillesnåle (Gillesnuole), where the ceremony will begin around 13:30. Afterward, there will be drinks and a light lunch. <br></br><br></br> At 16:00, the wedding bus will return everyone to Ammarnäs.<br></br><br></br> At 18:00, dinner and the party will begin at Ammarnäsgården Fjällhotell & Vandrarhem. During dinner, there will be a kids' corner with toys (but no supervision).</p>
+            <p>Breakfast at the hotel, followed by getting dressed and ready.<br></br><br></br> The wedding bus will pick everyone up from Ammarnäs around 12:30 and take us to the ceremony location at Jillesnåle (Gillesnuole), where the ceremony will begin around 13:30. Afterward, there will be drinks and a light lunch. <br></br><br></br> At 16:00, the wedding bus will return everyone to Ammarnäs.<br></br><br></br> At 18:00, dinner and the party will begin at Ammarnäsgården Fjällhotell & Vandrarhem. <br></br><br></br>During dinner, there will be a kids' corner with a TV and a few toys (feel free to bring your own).</p>
           </div>
           <div className='contentItemContainer withMapImage'>
             <h3>Saturday - Activities Day (weather permitting)</h3>
-            <p>Ammarnäs may feel remote, but it’s a hub for many nature-related activities. We encourage you to take this day to relax and experience the true beauty of northern nature. Please refer to the Activities Page for more details on what you can do here.<br></br><br></br> In the evening, we’ll have a party at the hotel bar.<br></br><br></br> For those interested, we’d be happy if you joined us for a hike to the top of Gáisátje (Gajssietjåhkka) around lunchtime. The hike is 4 km from the Tjulträsk parking lot to the summit. The first 2 km follow a stream through mountain birch forest. Once at the top (1008 m), you’ll be rewarded with a view of the entire reserve. The hike is a relatively easy walk through mountain moorland, with excellent birdwatching opportunities. Difficulty: Medium – the hike includes a 456-meter elevation gain.<br></br><br></br> For those who prefer a round-trip hike from Ammarnäs, you can follow the Ammarnäs-Tjulträsk parking lot trail (8.2 km), then continue from Tjulträsk parking lot to Gáisátje (4 km). From Gáisátje, you can hike via Karsbäcken to Småfjällen and then join the King’s Trail back to Ammarnäs, which is about 10 km (see the highlighted trail in yellow below).<br></br><br></br> <div className="imageContainer"> <img className='image' src={map} alt="" /> </div> For more info please see <a href="https://www.naturkartan.se/sv/vasterbottens-lan/gajsatjakke?utm_source=naturkartan&utm_medium=map" target="_blank" rel="noopener noreferrer">the map</a>.</p>
+            <p>
+              Ammarnäs may feel remote, but it’s a hub for many nature-related activities. We encourage you to take this day to relax and experience the true beauty of northern nature. Please refer to the Activities Page for more details on what you can do here.<br></br><br></br>
+
+              In the evening, there will be a buffet dinner available for purchase at the hotel for 180 kr per person. And of course, a party afterwards.<br></br><br></br>
+            
+              For those interested, we’d be happy if you joined us for a hike to the top of Gáisátje (Gajssietjåhkka) around lunchtime. The hike is 4 km from the Tjulträsk parking lot to the summit. The first 2 km follow a stream through mountain birch forest. Once at the top (1008 m), you’ll be rewarded with a view of the entire reserve. The hike is a relatively easy walk through mountain moorland, with excellent birdwatching opportunities. Difficulty: Medium – the hike includes a 456-meter elevation gain.<br></br><br></br>
+              
+              For those who prefer a round-trip hike from Ammarnäs, you can follow the Ammarnäs-Tjulträsk parking lot trail (8.2 km), then continue from Tjulträsk parking lot to Gáisátje (4 km). From Gáisátje, you can hike via Karsbäcken to Småfjällen and then join the King’s Trail back to Ammarnäs, which is about 10 km (see the highlighted trail in yellow below).<br></br><br></br>
+              
+              <div className="imageContainer"> <img className='image' src={map} alt="" /> </div> 
+              
+              For more info please see <a href="https://www.naturkartan.se/sv/vasterbottens-lan/gajsatjakke?utm_source=naturkartan&utm_medium=map" target="_blank" rel="noopener noreferrer">the map</a>.</p>
           </div>
           <div className='contentItemContainer'>
             <h3>Sunday - Departure Day</h3>
@@ -161,7 +172,8 @@ function Home() {
 
       <section id="RSVP" className='RSVP section'>
         <h2>RSVP</h2>
-        <p>To let us know that you are, please fill in <a href='https://docs.google.com/forms/d/e/1FAIpQLSfd_d6r2Zfq_GcwiNubxgnlQ0qsBLBgZxFSlXFkssmuLUrBng/viewform?usp=dialog' target="_blank" rel="noopener noreferrer">this form</a> by 1 June 2025.</p>
+        <p>Coming...</p>
+        <p>To let us know that you are, please fill in <a href='https://docs.google.com/forms/d/e/1FAIpQLSfd_d6r2Zfq_GcwiNubxgnlQ0qsBLBgZxFSlXFkssmuLUrBng/viewform?usp=dialog' target="_blank" rel="noopener noreferrer">this form</a> by 31 May 2025.</p>
       </section>
 
       <section id="activities" className='activities section'>

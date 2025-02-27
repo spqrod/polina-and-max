@@ -408,7 +408,20 @@
     }
 
     a {
-      color: rgb(50, 108, 255);
+      color: #a0d2eb; /* Light blue with good contrast against the dark overlay */
+      text-decoration: underline;
+      transition: color 0.3s ease; /* Smooth hover transition */
+      position: relative; /* For potential text shadow or underline adjustments */
+
+      &:hover {
+        color: #ffffff; /* White on hover for even better visibility */
+        text-decoration: underline; /* Maintain or enhance underline for clarity */
+      }
+
+      /* Optional: Add a subtle text shadow for better readability */
+      &:hover, &:focus {
+        text-shadow: 0 0 2px rgba(255, 255, 255, 0.8); /* Soft white glow */
+      }
     }
 
     &::before {
@@ -418,7 +431,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba(0, 0, 0, 0.528);
+      background-color: rgba(0, 0, 0, 0.624);
       z-index: 1;
     }
 
@@ -468,7 +481,20 @@
     }
 
     a {
-      color: rgb(50, 108, 255);
+      color: #a0d2eb; /* Light blue with good contrast against the dark overlay */
+      text-decoration: underline;
+      transition: color 0.3s ease; /* Smooth hover transition */
+      position: relative; /* For potential text shadow or underline adjustments */
+
+      &:hover {
+        color: #ffffff; /* White on hover for even better visibility */
+        text-decoration: underline; /* Maintain or enhance underline for clarity */
+      }
+
+      /* Optional: Add a subtle text shadow for better readability */
+      &:hover, &:focus {
+        text-shadow: 0 0 2px rgba(255, 255, 255, 0.8); /* Soft white glow */
+      }
     }
 
     &::before {
@@ -478,7 +504,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba(0, 0, 0, 0.339);
+      background-color: rgba(0, 0, 0, 0.459);
       z-index: 1;
     }
 
