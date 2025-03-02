@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ad30b2ca.css",
-    "main.js": "/static/js/main.c8cceb6a.js",
+    "main.js": "/static/js/main.0b6e0796.js",
     "static/media/Rubik-VariableFont_wght.ttf": "/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
     "static/media/hotel.jpeg": "/static/media/hotel.05ae55175652a7747067.jpeg",
     "static/media/hero-image-mobile.jpg": "/static/media/hero-image-mobile.226646224684dc04b6c9.jpg",
@@ -11,10 +11,10 @@
     "static/media/image-1.jpg": "/static/media/image-1.01fd400a21442ac2fab7.jpg",
     "index.html": "/index.html",
     "main.ad30b2ca.css.map": "/static/css/main.ad30b2ca.css.map",
-    "main.c8cceb6a.js.map": "/static/js/main.c8cceb6a.js.map"
+    "main.0b6e0796.js.map": "/static/js/main.0b6e0796.js.map"
   },
   "entrypoints": [
     "static/css/main.ad30b2ca.css",
-    "static/js/main.c8cceb6a.js"
+    "static/js/main.0b6e0796.js"
   ]
 }
