@@ -261,6 +261,8 @@
     transition: color 0.3s ease;
     display: block;
     padding: 0.5rem 1rem;
+    cursor: pointer;
+    user-select: none;
 
     &:hover {
       color: #bf925a;
