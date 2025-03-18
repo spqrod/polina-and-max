@@ -73,9 +73,20 @@
   }
 
   a {
+    color: rgb(68, 121, 255);
     text-decoration: underline;
-    color: rgb(25, 25, 223);
-    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth hover transition */
+    position: relative; /* For potential text shadow or underline adjustments */
+
+    &:hover {
+      color: blue; /* White on hover for even better visibility */
+      text-decoration: underline; /* Maintain or enhance underline for clarity */
+    }
+
+    /* Optional: Add a subtle text shadow for better readability */
+    &:hover, &:focus {
+      text-shadow: 0 0 2px rgb(137, 226, 255); /* Soft white glow */
+    }
   }
 }
 
@@ -408,14 +419,10 @@
     }
 
     a {
-      color: #a0d2eb; /* Light blue with good contrast against the dark overlay */
-      text-decoration: underline;
-      transition: color 0.3s ease; /* Smooth hover transition */
-      position: relative; /* For potential text shadow or underline adjustments */
+      color: #a0d2eb; 
 
       &:hover {
         color: #ffffff; /* White on hover for even better visibility */
-        text-decoration: underline; /* Maintain or enhance underline for clarity */
       }
 
       /* Optional: Add a subtle text shadow for better readability */
@@ -482,13 +489,9 @@
 
     a {
       color: #a0d2eb; /* Light blue with good contrast against the dark overlay */
-      text-decoration: underline;
-      transition: color 0.3s ease; /* Smooth hover transition */
-      position: relative; /* For potential text shadow or underline adjustments */
 
       &:hover {
         color: #ffffff; /* White on hover for even better visibility */
-        text-decoration: underline; /* Maintain or enhance underline for clarity */
       }
 
       /* Optional: Add a subtle text shadow for better readability */

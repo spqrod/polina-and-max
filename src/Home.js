@@ -111,7 +111,7 @@ function Home() {
         <div className='sectionContentContainer'> 
           <div className="contentContainer">
             <h3>Plane</h3>
-            <p>Arvidsjaurs, Lycksele, Hemavans and Umeå are the nearby airports. <br></br><br></br> Arvidsjaurs is the closest airport, 183 km from Ammarnäs.<br></br><br></br> If you fly to Arvidsjaur (AJR) with <a href='https://populair.com' target="_blank" rel="noopener noreferrer">populair.com</a> from Stockholm (ARN) on July 31st, 2025, we will arrange a bus from the airport to Ammarnäs for our guests. The same applies for the return flight on August 3rd. Please let us know if you plan to take these flights.</p>
+            <p>Arvidsjaur, Lycksele, Hemavan and Umeå are the nearby airports. <br></br><br></br> Arvidsjaur is the closest airport, 183 km from Ammarnäs.<br></br><br></br>If you fly to Arvidsjaur (AJR) with <a href='https://populair.com' target="_blank" rel="noopener noreferrer">populair.com</a> from Stockholm (ARN) on July 31st, 2025 and/or taking the return flight on 3rd of August, please let us know. Depending on the amount of people we will try to arrange a transfer to/from Ammarnäs for a reasonable price.</p>
           </div>
           <div className="contentContainer">
             <h3>Car</h3>
@@ -158,6 +158,8 @@ function Home() {
               For those interested, we’d be happy if you joined us for a hike to the top of Gáisátje (Gajssietjåhkka) around lunchtime. The hike is 4 km from the Tjulträsk parking lot to the summit. The first 2 km follow a stream through mountain birch forest. Once at the top (1008 m), you’ll be rewarded with a view of the entire reserve. The hike is a relatively easy walk through mountain moorland, with excellent birdwatching opportunities. Difficulty: Medium – the hike includes a 456-meter elevation gain.<br></br><br></br>
               
               For those who prefer a round-trip hike from Ammarnäs, you can follow the Ammarnäs-Tjulträsk parking lot trail (8.2 km), then continue from Tjulträsk parking lot to Gáisátje (4 km). From Gáisátje, you can hike via Karsbäcken to Småfjällen and then join the King’s Trail back to Ammarnäs, which is about 10 km (see the highlighted trail in yellow below).<br></br><br></br>
+
+              There will be hike-friendly lunch available for purchase at the hotel.<br></br><br></br>
               
               <div className="imageContainer"> <img className='image' src={map} alt="" /> </div> 
               
@@ -165,15 +167,15 @@ function Home() {
           </div>
           <div className='contentItemContainer'>
             <h3>Sunday - Departure Day</h3>
-            <p>For those taking the PopulAir flight to Stockholm (ARN) at 13:00, we will arrange a bus to drive from Ammarnäs to Arvidsjaur Airport in the morning.</p>
+            <p>For those taking the <a href="https://populair.com" target="_blank" rel="noopener noreferrer">PopulAir</a> flight to Stockholm (ARN) at 13:00, please let us know and depending on the amount of people we will try to arrange a bus to drive everyone from Ammarnäs to Arvidsjaur Airport.</p>
+            <p>The change is mostly towards the bus transfer to and from the airport - we are removing our offer to order the bus for everyone due to budget reasons</p>
           </div>
         </div>
       </section>
 
       <section id="RSVP" className='RSVP section'>
         <h2>RSVP</h2>
-        <p>Coming...</p>
-        <p>To let us know that you are, please fill in <a href='https://docs.google.com/forms/d/e/1FAIpQLSfd_d6r2Zfq_GcwiNubxgnlQ0qsBLBgZxFSlXFkssmuLUrBng/viewform?usp=dialog' target="_blank" rel="noopener noreferrer">this form</a> by 31 May 2025.</p>
+        <p>To let us know that you are coming, please fill in <a href='https://docs.google.com/forms/d/e/1FAIpQLSfd_d6r2Zfq_GcwiNubxgnlQ0qsBLBgZxFSlXFkssmuLUrBng/viewform?usp=dialog' target="_blank" rel="noopener noreferrer">this form</a> by 31 May 2025.</p>
       </section>
 
       <section id="activities" className='activities section'>
