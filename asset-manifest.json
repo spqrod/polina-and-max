@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.96c50408.css",
-    "main.js": "/static/js/main.10e93ac0.js",
+    "main.css": "/static/css/main.f06be9cb.css",
+    "main.js": "/static/js/main.0f0c6ead.js",
     "static/media/Rubik-VariableFont_wght.ttf": "/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
     "static/media/hotel.jpeg": "/static/media/hotel.05ae55175652a7747067.jpeg",
     "static/media/hero-image-mobile.jpg": "/static/media/hero-image-mobile.226646224684dc04b6c9.jpg",
@@ -10,11 +10,11 @@
     "static/media/imageOfProposal.jpg": "/static/media/imageOfProposal.a5b245e4887b31b453a2.jpg",
     "static/media/image-1.jpg": "/static/media/image-1.01fd400a21442ac2fab7.jpg",
     "index.html": "/index.html",
-    "main.96c50408.css.map": "/static/css/main.96c50408.css.map",
-    "main.10e93ac0.js.map": "/static/js/main.10e93ac0.js.map"
+    "main.f06be9cb.css.map": "/static/css/main.f06be9cb.css.map",
+    "main.0f0c6ead.js.map": "/static/js/main.0f0c6ead.js.map"
   },
   "entrypoints": [
-    "static/css/main.96c50408.css",
-    "static/js/main.10e93ac0.js"
+    "static/css/main.f06be9cb.css",
+    "static/js/main.0f0c6ead.js"
   ]
 }
