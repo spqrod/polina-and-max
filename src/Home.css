@@ -119,7 +119,7 @@
   --yellow-1: #BFA15A;
   --yellow-2: #BF925A;
   --beige-1: #CDAA7F;
-  --normal-text: #262626;
+  --normal-text: #000000;
 
   @media only screen and (max-width: 768px) {
     --h1-font-size: 44px;
@@ -420,6 +420,11 @@
       color: white;
     }
 
+    p {
+      width: 100%;
+      text-align: left;
+    }
+
     a {
       color: #a0d2eb; 
 
@@ -440,7 +445,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba(0, 0, 0, 0.624);
+      background-color: rgba(0, 0, 0, 0.614);
       z-index: 1;
     }
 
@@ -532,5 +537,45 @@
       gap: var(--big-gap);
     }
   }
+
+  &.presents {
+
+    .art {
+        background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+        background-size: cover;
+        color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        font-weight: 800;
+        letter-spacing: 1px;
+        /* text-transform: uppercase; */
+        /* font-size: 120px; */
+        /* margin: 10px 0; */
+      }
+
+        .gold {
+            -webkit-animation: glowing-text 2s ease-in-out infinite alternate;
+            -moz-animation: glowing-text 2s ease-in-out infinite alternate;
+            animation: glowing-text 2s ease-in-out infinite alternate;
+        }
+    }
+        
 }
 
+@-webkit-keyframes glowing-text {
+    0% {
+        text-shadow: 0 0 10px #FFD700, 0 0 15px #FFD700, 0 0 20px #FFD700;
+    }
+    100% {
+        text-shadow: 0 0 40px #ab7c07, 0 0 60px #ab7c07, 0 0 80px #ab7c07;
+    }
+}
+
+@keyframes glowing-text {
+    0% {
+        text-shadow: 0 0 10px #FFD700, 0 0 15px #FFD700, 0 0 20px #FFD700;
+    }
+    100% {
+        text-shadow: 0 0 40px #ab7c07, 0 0 60px #ab7c07, 0 0 80px #ab7c07;
+    }
+}

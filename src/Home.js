@@ -29,6 +29,31 @@ const Countdown = () => {
   );
 };
 
+// const Countdown2 = () => {
+//   const [days, setDays] = useState(0);
+
+//   useEffect(() => {
+//     const targetDate = new Date('2025-05-31T00:00:00');
+//     const updateCountdown = () => {
+//       const currentDate = new Date();
+//       const difference = targetDate - currentDate;
+//       let daysLeft = Math.floor(difference / (1000 * 60 * 60 * 24));
+      
+//       if (daysLeft < 0) {
+//         daysLeft = 0;
+//       }
+//       setDays(daysLeft);
+//     };
+
+//     const timer = setInterval(updateCountdown, 1000);
+//     return () => clearInterval(timer);
+//   }, []);
+
+//   return (
+//     <span>{days}</span>
+//   );
+// };
+
 function Home() {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -67,6 +92,7 @@ function Home() {
           <li><a onClick={() => scrollToSection('RSVP')}>RSVP</a></li>
           <li><a onClick={() => scrollToSection('activities')}>Activities</a></li>
           <li><a onClick={() => scrollToSection('weddingDetails')}>Wedding Details</a></li>
+          <li><a onClick={() => scrollToSection('presents')}>🎁</a></li>
         </ul>
       </nav>
 
@@ -77,6 +103,7 @@ function Home() {
           <p>Friday, the 1st of August, 2025.</p>
           <p>Ammarnäs, Sweden.</p>
           <p><i>We are getting married in <Countdown /> days!</i></p>
+          {/* <p><i>RSVP closes in <Countdown2 /> days!</i></p> */}
           <div className='gradientBackgroundForMobile'></div>
         </div>
 
@@ -97,7 +124,9 @@ function Home() {
 
             We hope you can join us for our wedding!<br></br><br></br>
 
-            This is an active website, and we’ll be updating it regularly, so be sure to check back. If you have any questions, feel free to reach out to us.
+            This is an active website, and we’ll be updating it regularly, so be sure to check back. If you have any questions, feel free to reach out to us.<br></br><br></br>
+
+            P.S. All invitations include a +1 and children.
           </p>
 
           <div className='imageContainer'>
@@ -115,7 +144,8 @@ function Home() {
           </div>
           <div className="contentContainer">
             <h3>Car</h3>
-            <p>By car, drive to Sorsele via road 363 or E45. From Sorsele, continue on road 363 to Ammarnäs. While there is a place to refuel in Ammarnäs, it’s an additional 89 km, so you may want to refuel in Sorsele before driving the final stretch.<br></br><br></br> If you have space in your car or need a ride, please post in the WhatsApp group.</p>
+            <p>By car, drive to Sorsele via road 363 or E45. From Sorsele, continue on road 363 to Ammarnäs. While there is a place to refuel in Ammarnäs, it’s an additional 89 km, so you may want to refuel in Sorsele before driving the final stretch.<br></br><br></br> 
+            If you have a car and can offer a ride, or if you are looking for one, please post in the <a href='https://chat.whatsapp.com/Hn5ThdlOhQFJ0ldvln6IDv' target="_blank" rel="noopener noreferrer">Car Share WhatsApp group</a>.</p>
           </div>
           <div className="contentContainer">
             <h3>Train</h3>
@@ -134,7 +164,25 @@ function Home() {
 
       <section id="accommodation" className='accommodation section'>
         <h2>Accomodation</h2>
-        <p>The party will be held at Ammarnäsgården Fjällhotell & Vandrarhem, where we have reserved rooms until May 31, 2025.<br></br><br></br>To book a room, please call (0952-600 03) or email (fjallhotell@ammarnasgarden.se) and mention that you are attending the “Max and Polina Wedding.” A 10% discount will apply to all bookings.<br></br><br></br>There are two room types available: 'Hotellrum' and 'Fjällrum'. Most of the 'Hotellrum' have been recently renovated and offer a more comfortable stay, while the 'Fjällrum' are a simpler, no-frills, budget-friendly choice.<br></br><br></br>If you’d prefer to stay elsewhere, please refer to <a href="https://www.visitammarnas.se/boende " target="_blank" rel="noopener noreferrer">this page</a> for more options.</p>
+        <p>
+          The party will be held at <a href="https://ammarnasgarden.se/index.php/om-vara-boenden" target="_blank" rel="noopener noreferrer">Ammarnäsgården Fjällhotell & Vandrarhem</a>, where we have reserved rooms until May 31, 2025. 
+        <br></br><br></br>
+        
+        
+          To book a room, please <a href="mailto:fjallhotell@ammarnasgarden.se?subject=Reservation%20for%20Max%20and%20Polina%20Wedding&body=Good%20day!%20I%20will%20be%20attending%20Max%20and%20Polina%20wedding%20and%20would%20like%20to%20reserve%20a%20room%20for%20this%20occasion.%20Thank%20you.">email</a> (fjallhotell@ammarnasgarden.se) and mention that you are attending “Max and Polina Wedding.” A 10% discount will apply to all bookings. 
+        <br></br><br></br>
+        
+        
+          The hotel offers a 50% discount on the 4th night and every night thereafter, in case you'd like to come earlier or stay later. There are two room types available: 'Hotellrum' and 'Fjällrum'. Most of the 'Hotellrum' have been recently renovated and offer a more comfortable stay, while the 'Fjällrum' are a simpler, no-frills, budget-friendly choice.
+        <br></br><br></br>
+        
+          The hotel also has two 4-person tents available for borrowing for a hike.
+        <br></br><br></br>
+        
+          If you’d prefer to stay elsewhere, please refer to <a href="https://www.visitammarnas.se/boende " target="_blank" rel="noopener noreferrer">this page</a> for more options.
+          
+        </p>
+
       </section>
 
       <section id="programme" className='programme section'>
@@ -146,7 +194,7 @@ function Home() {
           </div>
           <div className='contentItemContainer'>
             <h3>Friday - Wedding Day</h3>
-            <p>Breakfast at the hotel, followed by getting dressed and ready.<br></br><br></br> The wedding bus will pick everyone up from Ammarnäs around 12:30 and take us to the ceremony location at Jillesnåle (Gillesnuole), where the ceremony will begin around 13:30. Afterward, there will be drinks and a light lunch. <br></br><br></br> At 16:00, the wedding bus will return everyone to Ammarnäs.<br></br><br></br> At 18:00, dinner and the party will begin at Ammarnäsgården Fjällhotell & Vandrarhem. <br></br><br></br>During dinner, there will be a kids' corner with a TV and a few toys (feel free to bring your own).</p>
+            <p>Breakfast at the hotel, followed by getting dressed and ready.<br></br><br></br> The wedding bus will pick everyone up from Ammarnäs around 12:30 and take us to the ceremony location at Jillesnåle (Gillesnuole), where the ceremony will begin around 13:30.  <br></br><br></br> At 16:00, the wedding bus will return everyone to Ammarnäs.<br></br><br></br> At 18:00, dinner and the party will begin at Ammarnäsgården Fjällhotell & Vandrarhem. <br></br><br></br>During dinner, there will be a kids' corner with a TV and a few toys (feel free to bring your own).</p>
           </div>
           <div className='contentItemContainer withMapImage'>
             <h3>Saturday - Activities Day (weather permitting)</h3>
@@ -168,7 +216,6 @@ function Home() {
           <div className='contentItemContainer'>
             <h3>Sunday - Departure Day</h3>
             <p>For those taking the <a href="https://populair.com" target="_blank" rel="noopener noreferrer">PopulAir</a> flight to Stockholm (ARN) at 13:00, please let us know and depending on the amount of people we will try to arrange a bus to drive everyone from Ammarnäs to Arvidsjaur Airport.</p>
-            <p>The change is mostly towards the bus transfer to and from the airport - we are removing our offer to order the bus for everyone due to budget reasons</p>
           </div>
         </div>
       </section>
@@ -217,6 +264,37 @@ function Home() {
           </div>
         </div>
       </section>
+
+        <section id="presents" className='presents section'>
+
+            <h2>Presents</h2>
+
+            <div className="contentContainer">
+
+                <p>
+                    We feel incredibly fortunate to already have everything we need (and more) in our lives, which is why we truly don’t need anything else. <br></br><br></br>
+
+                    From the bottom of our hearts, we are so happy—and deeply touched—that so many of you are making the journey all the way to Ammarnäs to celebrate with us. We know that if you're willing to travel (almost) to the Arctic Circle to be with us, then your love is real—and honestly, that’s the greatest gift we could ever receive.
+                    <br/><br/>
+
+                    So, in short: we’re not expecting any gifts beyond your wonderful presence.
+                    <br/><br/>
+
+                    That said—if you really feel like giving something, we both have a deep love for <span className='art'>art</span>. There’s no such thing as too much of it in our lives, and we especially cherish the personal and creative.
+                    <br/><br/>
+
+                    What counts as “art” is just as open to interpretation as the dress code (“wild outfit,” anyone?). It could be a funny or beautiful photo from the wedding, a piece of music, pressed and framed flowers, or anything made with heart and imagination.
+                    <br/><br/>
+
+                    (And yes—if you’re wondering—alcohol, money, and <span className='gold'>gold</span> can also be considered art... depending on how you present it.)
+                    <br/><br/>
+
+                    But truly, your love, your smile, and your company are more than enough.
+                </p>
+
+            </div>
+        </section>
+
     </div>
   );
 }
