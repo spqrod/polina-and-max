@@ -194,7 +194,7 @@ function Home() {
           </div>
           <div className='contentItemContainer'>
             <h3>Friday - Wedding Day</h3>
-            <p>Breakfast at the hotel, followed by getting dressed and ready.<br></br><br></br> The wedding bus will pick everyone up from Ammarnäs around 12:30 and take us to the ceremony location at Jillesnåle (Gillesnuole), where the ceremony will begin around 13:30.  <br></br><br></br> At 16:00, the wedding bus will return everyone to Ammarnäs.<br></br><br></br> At 18:00, dinner and the party will begin at Ammarnäsgården Fjällhotell & Vandrarhem. <br></br><br></br>During dinner, there will be a kids' corner with a TV and a few toys (feel free to bring your own).</p>
+            <p>Breakfast at the hotel, followed by getting dressed and ready.<br></br><br></br> The wedding bus will pick everyone up from Ammarnäs around 12:00 and take us to the ceremony location at Jillesnåle (Gillesnuole), where the ceremony will begin around 13:00.  <br></br><br></br> At 16:00, the wedding bus will return everyone to Ammarnäs.<br></br><br></br> At 18:00, dinner and the party will begin at Ammarnäsgården Fjällhotell & Vandrarhem. <br></br><br></br>During dinner, there will be a kids' corner with a TV and a few toys (feel free to bring your own).</p>
           </div>
           <div className='contentItemContainer withMapImage'>
             <h3>Saturday - Activities Day (weather permitting)</h3>
@@ -252,7 +252,7 @@ function Home() {
           </div>
           <div className="contentItemContainer">
             <h3>Toast masters</h3>
-            <p>TBA...<br></br> In a traditional Crimean wedding, proposing toasts is as natural as taking a breath, so we’d be happy to hear if you’d like to say something. At the end of the toast, you might want to say “Gorka,” which means "bitter," which obviously signals that Max and I have to kiss. For an even more traditional touch, you can start counting to 10, and Max and I will only stop kissing once you reach 10.</p>
+            <p>TBA...<br></br> In a traditional Crimean wedding, proposing toasts is as natural as taking a breath, so we’d be happy to hear if you’d like to say something.</p>
           </div>
           <div className="contentItemContainer">
             <h3>What to pack</h3>
