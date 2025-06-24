@@ -252,11 +252,37 @@ function Home() {
           </div>
           <div className="contentItemContainer">
             <h3>Toast masters</h3>
-            <p>TBA...<br></br> In a traditional Crimean wedding, proposing toasts is as natural as taking a breath, so we’d be happy to hear if you’d like to say something.</p>
+                <ul>
+                    <li>
+                        Paula Iniguez de Ciriano
+                    </li>
+                    <li>
+                        Johan Eelde Koivisto
+                    </li>
+                </ul>
+                <p>In a traditional Crimean wedding, proposing toasts is as natural as taking a breath, so we’d be happy to hear if you’d like to say something.</p>
           </div>
           <div className="contentItemContainer">
             <h3>What to pack</h3>
-            <p>The weather in the mountains can change quickly, so please check the forecast before you travel. Be sure to bring mosquito repellent with you.</p>
+            <p>The weather in the mountains can change quickly, so please check the forecast before you travel. Here are some suggestions for your packing list:</p>
+            <ul>
+                <li>Smiles, hopes, and perseverance </li>
+                <li>Clothes for cold weather (approx. -1C)</li>
+                <li>Clothes for warm weather (approx. 23C)</li>
+                <li>Clothes for windy weather </li>
+                <li>Clothes for rainy weather </li>
+                <li>Clothes for swimming </li>
+                <li>Clothes for raving </li>
+                <li>Clothes for hiking</li>
+                <li>Mosquito spray </li>
+                <li>Sunscreen  </li>
+                <li>Your wildest outfit </li>
+            </ul>
+            <br/>
+            <p>
+                P.S. We love you so much and are beyond excited you're coming! As they say: prepare for rain, enjoy the sun, and maybe pack that outfit you swore you'd never wear in public—this might be its moment.
+            </p>
+
           </div>
           <div className="contentItemContainer">
             <h3>Included with our celebration</h3>
